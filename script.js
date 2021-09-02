@@ -1,15 +1,17 @@
 "use strict";
 
-// const result= confirm('are you here?');
-//console.log(result);
+if (1) {
+  console.log('ok!'); 
+} else {
+  console.log('error!');
+}
 
-//const answer = prompt('вам есть 18?', '18');
-//console.log(typeof(answer));
+const num = 50;
 
-const answers = [];
-
-answers[0] = prompt('как вас зовут?', '');
-answers[1] = prompt('как вас не зовут?', '');
-answers[2] = prompt('как вас?', '');
-
-document.write(answers);
+if (num < 49) {
+  console.log('Error!');
+} else if(num > 100) {
+  console.log('Мнонго!');
+} else  {
+  console.log('ok');
+}
